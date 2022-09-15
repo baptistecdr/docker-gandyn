@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+* */2 * * * /usr/local/bin/dyn_gandi -c /config/config.ini >> /var/log/cron.log 2>&1
