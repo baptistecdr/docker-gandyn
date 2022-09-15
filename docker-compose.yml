@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  gandyn:
+    image: baptistecdr/gandyn
+    container_name: gandyn
+    environment:
+      - TZ=Europe/Paris
+    volumes:
+      - ./config.ini:/config/config.ini
