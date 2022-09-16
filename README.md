@@ -1,6 +1,6 @@
-<h3 align="center">gandyn (Dockerized)</h3>
+<h3 align="center">dyn-gandi (Dockerized)</h3>
 <p align="center">
-    A simple Dockerfile/docker-compose to run <a href="https://github.com/Danamir/dyn-gandi">gandyn</a>.
+    A simple Dockerfile/docker-compose to run <a href="https://github.com/Danamir/dyn-gandi">dyn-gandi</a>.
     <br>
     <a href="https://github.com/baptistecdr/docker-gandyn/issues/new">Report bug</a>
     ·
@@ -20,7 +20,7 @@
 
 * Copy [config.ini-dist](https://github.com/Danamir/dyn-gandi/blob/master/config.ini-dist) to `config.ini`
 * Modify `config.ini` depending on your configuration.
-* `gandyn` is executed every minute
+* `dyn-gandi` is executed every minute
 
 ### Docker
 
