@@ -5,6 +5,6 @@ services:
     image: baptistecdr/gandyn
     container_name: gandyn
     environment:
-      - TZ=Europe/Paris
+      - TZ=UTC
     volumes:
       - ./config.ini:/config/config.ini

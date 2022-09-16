@@ -27,9 +27,10 @@
 ```shell
 docker run --rm --privileged \
 --mount type=bind,source=./config.ini,target=/config/config.ini \
--e TZ="Europe/Paris" \
+-e TZ="UTC" \
 baptistecdr/gandyn
 ```
+* Modify `TZ` variable
 
 ### Docker Compose
 
@@ -37,7 +38,7 @@ baptistecdr/gandyn
 ```shell
 wget https://raw.githubusercontent.com/baptistecdr/docker-gandyn/main/docker-compose.yml
 ```
-
+* Modify `TZ` variable
 * Run `docker-compose up -d`
 
 ## Bugs and feature requests
