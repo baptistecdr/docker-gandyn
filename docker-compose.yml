@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   gandyn:
-    image: baptistecdr/gandyn:1.0.6@sha256:85d343826266574241efd428a043bf0a2dde684944663a8050346fa9e25b2e12
+    image: baptistecdr/gandyn:1.0.7@sha256:8a3479591fe99bfbf823d77d2ea39ab51686a669652f4f9345d62dcf33c9db6e
     container_name: gandyn
     environment:
       - TZ=UTC
