@@ -9,7 +9,7 @@
 
 <div align="center">
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/baptistecdr/docker-gandyn/ci)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/baptistecdr/docker-gandyn/ci.yml?branch=main)
 ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/baptistecdr/gandyn)
 ![Docker Pulls](https://img.shields.io/docker/pulls/baptistecdr/gandyn)
 ![GitHub](https://img.shields.io/github/license/baptistecdr/docker-gandyn)
