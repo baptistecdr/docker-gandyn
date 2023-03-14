@@ -1,4 +1,4 @@
-FROM python:3.11.2@sha256:d3c16df33787f3d03b2e096037f6deb3c1c5fc92c57994a7d6f2de018de01a6b
+FROM python:3.11.2@sha256:1db68f83ca0d2735aeb804708cbc2b7be573ff4c236b2bbfa220bbac81512bb8
 
 WORKDIR /
 COPY root /
