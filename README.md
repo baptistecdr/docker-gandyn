@@ -25,7 +25,7 @@
 ### Docker
 
 ```shell
-docker run --rm --privileged \
+docker run --rm \
 --mount type=bind,source=./config.ini,target=/config/config.ini \
 -e TZ="UTC" \
 baptistecdr/gandyn
